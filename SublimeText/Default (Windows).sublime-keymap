@@ -1,0 +1,23 @@
+[
+    // side bar 
+    { "keys": ["ctrl+shift+c"], "command": "copy_path" },
+    //chrome
+    { "keys": ["f2"], "command": "side_bar_files_open_with",
+            "args": {
+                "paths": [],
+                "application": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+                "extensions":".*"
+            }
+     },
+     
+
+    //Goto-CSS-Declaration
+    {
+        "keys": ["ctrl+alt+."], "command": "goto_css_declaration",
+        "args": {"goto": "next"}
+    },
+    {
+        "keys": ["ctrl+alt+,"],  "command": "goto_css_declaration",
+        "args": {"goto": "prev"}
+    }
+]
